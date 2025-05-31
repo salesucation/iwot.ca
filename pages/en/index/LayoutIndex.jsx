@@ -10,7 +10,7 @@ export default function ({ children }) {
       <nav role="menu">
         <label data-role="burger"><input type="checkbox" /></label>
         <ul role="menubar">
-          <li><strong>salesucation</strong></li>
+          <li><strong>Inter-Web of Things</strong></li>
         </ul>
         <ul role="menuitem">
           <li>
@@ -29,7 +29,7 @@ export default function ({ children }) {
       <div className="hero">
         {children}
       </div>
-      <h2>Why Salesucation?</h2>
+      <h2>The web is the human machine interface.</h2>
       <div className="grid">
         <article>
           <Operations />
