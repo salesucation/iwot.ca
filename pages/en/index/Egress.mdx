@@ -1,4 +1,16 @@
-![egress](/exit-emergency-exit-escape-route.png)
+![egress](/exit-emergency-exit-escape-routesm.png)
+
 ### Egress rather than Ingress
 
-- enable remote workers or supply chain partners without need for a VPN
+- no need for cloud connectivity we run on the edge
+- plcs can be on a private vlan without any access to the internet
+- if internet connectivity is required it need only be outbound with Message Queuing Telemetry Transport (mqtt)
+- message oriented middleware runs without incoming access
+- if wan access is down or intermittent still accessible on same lan
+- if www access is required, achieved through outbound access to internet only
+- HMI access limited to static (compiled) html and websockets only
+
+<div>&nbsp;</div>
+<footer>
+<button>learn more</button>
+</footer>

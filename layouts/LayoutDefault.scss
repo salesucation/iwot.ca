@@ -144,11 +144,27 @@
     min-height: 10rem;
   }
 
-  .hero button{
+  .hero button, article button{
     float: right;
-    margin-top: 1.5rem;
   }
 
   main h2{
     margin-top: 1.2em;
+  }
+
+  article{
+    position: relative;
+  }
+
+  article footer{
+    float:none;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    clear: both;
+  }
+
+  article div{
+    clear: both;
+    margin-bottom: 1em;
   }

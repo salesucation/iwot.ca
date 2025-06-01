@@ -1,7 +1,7 @@
 import "../../../layouts/LayoutDefault.scss";
 import Maintenance from "./Maintenance.mdx";
 import Operations from "./Operations.mdx";
-import CDWordpress from "./CDWordpress.mdx";
+import NoCodeHMI from "./NoCodeHMI.mdx";
 import Egress from "./Egress.mdx";
 import AutonomousComponents from "./AutonomousComponents.mdx";
 export default function ({ children }) {
@@ -38,13 +38,13 @@ export default function ({ children }) {
           <Maintenance />
         </article>
       </div>
-      <h2>Our special sauce</h2>
+      <h2>Human Machine Interface Design</h2>
       <div className="grid">
         <article>
           <AutonomousComponents />
         </article>
         <article>
-          <CDWordpress />
+          <NoCodeHMI />
         </article>
         <article>
           <Egress />
